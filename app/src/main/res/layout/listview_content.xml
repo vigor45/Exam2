@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dip">
+
+       <ImageView
+           android:id="@+id/iv_image"
+           android:layout_width="150px"
+           android:layout_height="150px"
+           />
+        <TextView
+            android:id="@+id/tv_author"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:text="sample text"
+            android:textSize="18sp"/>
+        <Button
+            android:id="@+id/btn_preview"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:onClick="OnClickView"
+            android:text="PREVIEW"
+            android:background="@color/blue"
+            android:textColor="#ffffff"
+            />
+</LinearLayout>
+
